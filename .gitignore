@@ -23,11 +23,11 @@ node_modules
 dist
 assets/**/*.css
 build
-lib
+#lib
 coverage
 .vscode
 yarn.lock
-es/
+#es/
 package-lock.json
 src/*.js
 src/*.map
