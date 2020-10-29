@@ -3,7 +3,7 @@ import KeyCode from 'rc-util/lib/KeyCode';
 import pickAttrs from 'rc-util/lib/pickAttrs';
 import useMemo from 'rc-util/lib/hooks/useMemo';
 import classNames from 'classnames';
-import List, { ListRef } from 'rc-virtual-list';
+import List, { ListRef } from '@stefangomez/rc-virtual-list';
 import TransBtn from './TransBtn';
 import {
   OptionsType as SelectOptionsType,
