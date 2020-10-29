@@ -1,6 +1,6 @@
 {
-  "name": "rc-select",
-  "version": "11.3.3",
+  "name": "@stefangomez/rc-select",
+  "version": "11.3.4",
   "description": "React Select",
   "engines": {
     "node": ">=8.x"
@@ -20,20 +20,20 @@
     "es",
     "lib"
   ],
-  "homepage": "http://github.com/react-component/select",
+  "homepage": "http://github.com/stefangomez/select",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/select.git"
+    "url": "git@github.com:stefangomez/select.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/select/issues"
+    "url": "http://github.com/stefangomez/select/issues"
   },
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development father doc dev --storybook",
     "build": "father doc build --storybook",
     "compile": "father build",
-    "prepublishOnly": "npm run compile && np --yolo --no-publish",
+    "prepublishOnly": "npm run compile && np --yolo --no-publish --any-branch",
     "lint": "eslint src/ examples/ --ext .tsx,.ts,.jsx,.js",
     "test": "father test",
     "now-build": "npm run build"
@@ -42,6 +42,9 @@
     "react": "*",
     "react-dom": "*"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },  
   "dependencies": {
     "@babel/runtime": "^7.10.1",
     "classnames": "2.x",
