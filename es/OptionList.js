@@ -6,7 +6,7 @@ import KeyCode from "rc-util/es/KeyCode";
 import pickAttrs from "rc-util/es/pickAttrs";
 import useMemo from "rc-util/es/hooks/useMemo";
 import classNames from 'classnames';
-import List from 'rc-virtual-list';
+import List from '@stefangomez/rc-virtual-list';
 import TransBtn from './TransBtn';
 /**
  * Using virtual list of option display.
