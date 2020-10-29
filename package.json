@@ -1,6 +1,6 @@
 {
   "name": "@stefangomez/rc-select",
-  "version": "11.3.5",
+  "version": "11.3.6",
   "description": "React Select",
   "engines": {
     "node": ">=8.x"
