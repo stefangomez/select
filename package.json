@@ -1,6 +1,6 @@
 {
   "name": "@stefangomez/rc-select",
-  "version": "11.3.4",
+  "version": "11.3.5",
   "description": "React Select",
   "engines": {
     "node": ">=8.x"
@@ -44,7 +44,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },  
+  },
   "dependencies": {
     "@babel/runtime": "^7.10.1",
     "classnames": "2.x",
